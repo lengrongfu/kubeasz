@@ -22,8 +22,8 @@
 
 一般云厂商会限制使用`keepalived+haproxy`自建负载均衡，你可以根据云厂商文档使用云负载均衡（内网）四层TCP负载模式；
 
-- kubeasz 2x 版本已无需依赖外部负载均衡实现apiserver的高可用，详见 [2x架构](https://github.com/easzlab/kubeasz/blob/dev2/docs/setup/00-planning_and_overall_intro.md#ha-architecture)
-- kubeasz 1x 及以前版本需要负载均衡实现apiserver高可用，详见 [1x架构](https://github.com/easzlab/kubeasz/blob/dev1/docs/setup/00-planning_and_overall_intro.md#ha-architecture)
+- kubeasz 2x 版本已无需依赖外部负载均衡实现apiserver的高可用，详见 [2x架构](https://github.com/lengrongfu/kubeasz/blob/dev2/docs/setup/00-planning_and_overall_intro.md#ha-architecture)
+- kubeasz 1x 及以前版本需要负载均衡实现apiserver高可用，详见 [1x架构](https://github.com/lengrongfu/kubeasz/blob/dev1/docs/setup/00-planning_and_overall_intro.md#ha-architecture)
 
 ### 时间同步
 

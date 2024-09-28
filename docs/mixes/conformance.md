@@ -39,7 +39,7 @@ Provision 3 nodes for your cluster (OS: Ubuntu 20.04)
 
 2 worker node (4c16g)
 
-for a High-Availability Kubernetes Cluster, read [more](https://github.com/easzlab/kubeasz/blob/master/docs/setup/00-planning_and_overall_intro.md)
+for a High-Availability Kubernetes Cluster, read [more](https://github.com/lengrongfu/kubeasz/blob/master/docs/setup/00-planning_and_overall_intro.md)
 
 ## Install the cluster
 
@@ -47,7 +47,7 @@ for a High-Availability Kubernetes Cluster, read [more](https://github.com/easzl
 
 ```
 export release=3.2.0
-curl -C- -fLO --retry 3 https://github.com/easzlab/kubeasz/releases/download/${release}/ezdown
+curl -C- -fLO --retry 3 https://github.com/lengrongfu/kubeasz/releases/download/${release}/ezdown
 chmod +x ./ezdown
 ./ezdown -D -m standard
 ```

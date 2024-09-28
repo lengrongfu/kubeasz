@@ -60,7 +60,7 @@ ssh-copy-id $IP
 
 ``` bash
 export release=3.5.0
-wget https://github.com/easzlab/kubeasz/releases/download/${release}/ezdown
+wget https://github.com/lengrongfu/kubeasz/releases/download/${release}/ezdown
 chmod +x ./ezdown
 ```
 

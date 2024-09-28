@@ -13,16 +13,16 @@ kubeasz 多架构安装逻辑：根据部署机器（执行ezdown/ezctl命令的
 
 #### k8s核心组件本身提供多架构的二进制文件/容器镜像下载，项目调整了下载二进制文件的容器dockerfile
 
-- https://github.com/easzlab/dockerfile-kubeasz-k8s-bin
+- https://github.com/lengrongfu/dockerfile-kubeasz-k8s-bin
 
 #### kubeasz其他用到的二进制或镜像，重新调整了容器创建dockerfile
 
-- https://github.com/easzlab/dockerfile-kubeasz-ext-bin
-- https://github.com/easzlab/dockerfile-kubeasz-ext-build
-- https://github.com/easzlab/dockerfile-kubeasz-sys-pkg
-- https://github.com/easzlab/dockerfile-kubeasz-mirrored-images
-- https://github.com/easzlab/dockerfile-kubeasz
-- https://github.com/easzlab/dockerfile-ansible
+- https://github.com/lengrongfu/dockerfile-kubeasz-ext-bin
+- https://github.com/lengrongfu/dockerfile-kubeasz-ext-build
+- https://github.com/lengrongfu/dockerfile-kubeasz-sys-pkg
+- https://github.com/lengrongfu/dockerfile-kubeasz-mirrored-images
+- https://github.com/lengrongfu/dockerfile-kubeasz
+- https://github.com/lengrongfu/dockerfile-ansible
 
 #### 其他组件(coredns/network plugin/dashboard/metrics-server等)一般都提供多架构的容器镜像，可以直接下载拉取
 

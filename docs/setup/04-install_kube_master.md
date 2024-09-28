@@ -189,7 +189,7 @@ WantedBy=multi-user.target
 
 ### 在master 节点安装 node 服务: kubelet kube-proxy 
 
-项目master 分支使用 DaemonSet 方式安装网络插件，如果master 节点不安装 kubelet 服务是无法安装网络插件的，如果 master 节点不安装网络插件，那么通过`apiserver` 方式无法访问 `dashboard` `kibana`等管理界面，[ISSUES #130](https://github.com/easzlab/kubeasz/issues/130)
+项目master 分支使用 DaemonSet 方式安装网络插件，如果master 节点不安装 kubelet 服务是无法安装网络插件的，如果 master 节点不安装网络插件，那么通过`apiserver` 方式无法访问 `dashboard` `kibana`等管理界面，[ISSUES #130](https://github.com/lengrongfu/kubeasz/issues/130)
 
 在master 节点也同时成为 node 节点后，默认业务 POD也会调度到 master节点；可以使用 `kubectl cordon`命令禁止业务 POD调度到 master节点。
 

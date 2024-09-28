@@ -12,11 +12,11 @@
 
 ### 2.下载文件
 
-- 下载工具脚本ezdown，举例使用kubeasz版本3.5.0
+- 下载工具脚本ezdown，举例使用kubeasz版本3.6.5
 
 ``` bash
-export release=3.5.0
-wget https://github.com/easzlab/kubeasz/releases/download/${release}/ezdown
+export release=3.6.5
+wget https://github.com/lengrongfu/kubeasz/releases/download/${release}/ezdown
 chmod +x ./ezdown
 ```
 

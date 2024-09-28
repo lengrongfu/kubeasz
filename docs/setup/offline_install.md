@@ -15,7 +15,7 @@
 
 ``` bash
 export release=3.6.0
-wget https://github.com/easzlab/kubeasz/releases/download/${release}/ezdown
+wget https://github.com/lengrongfu/kubeasz/releases/download/${release}/ezdown
 chmod +x ./ezdown
 ```
 
@@ -75,7 +75,7 @@ chmod +x ./ezdown
 sed -i 's/^INSTALL_SOURCE.*$/INSTALL_SOURCE: "offline"/g' /etc/kubeasz/example/config.yml 
 ```
 
-- 举例安装单节点集群，参考 https://github.com/easzlab/kubeasz/blob/master/docs/setup/quickStart.md
+- 举例安装单节点集群，参考 https://github.com/lengrongfu/kubeasz/blob/master/docs/setup/quickStart.md
 
 ``` bash
 source ~/.bashrc
@@ -83,5 +83,5 @@ dk ezctl start-aio
 # 或者执行 docker exec -it kubeasz ezctl start-aio
 ```
 
-- 多节点集群，进入kubeasz 容器内 `docker exec -it kubeasz bash`，参考https://github.com/easzlab/kubeasz/blob/master/docs/setup/00-planning_and_overall_intro.md 进行集群规划和设置后使用./ezctl 命令安装
+- 多节点集群，进入kubeasz 容器内 `docker exec -it kubeasz bash`，参考https://github.com/lengrongfu/kubeasz/blob/master/docs/setup/00-planning_and_overall_intro.md 进行集群规划和设置后使用./ezctl 命令安装
 

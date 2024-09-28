@@ -64,22 +64,22 @@ function help-info() {
 	    usage-setup
             ;;
         (add-etcd)
-            echo -e "read more > 'https://github.com/easzlab/kubeasz/blob/master/docs/op/op-etcd.md'"
+            echo -e "read more > 'https://github.com/lengrongfu/kubeasz/blob/master/docs/op/op-etcd.md'"
             ;;
         (add-master)
-            echo -e "read more > 'https://github.com/easzlab/kubeasz/blob/master/docs/op/op-master.md'"
+            echo -e "read more > 'https://github.com/lengrongfu/kubeasz/blob/master/docs/op/op-master.md'"
             ;;
         (add-node)
-            echo -e "read more > 'https://github.com/easzlab/kubeasz/blob/master/docs/op/op-node.md'"
+            echo -e "read more > 'https://github.com/lengrongfu/kubeasz/blob/master/docs/op/op-node.md'"
             ;;
         (del-etcd)
-            echo -e "read more > 'https://github.com/easzlab/kubeasz/blob/master/docs/op/op-etcd.md'"
+            echo -e "read more > 'https://github.com/lengrongfu/kubeasz/blob/master/docs/op/op-etcd.md'"
             ;;
         (del-master)
-            echo -e "read more > 'https://github.com/easzlab/kubeasz/blob/master/docs/op/op-master.md'"
+            echo -e "read more > 'https://github.com/lengrongfu/kubeasz/blob/master/docs/op/op-master.md'"
             ;;
         (del-node)
-            echo -e "read more > 'https://github.com/easzlab/kubeasz/blob/master/docs/op/op-node.md'"
+            echo -e "read more > 'https://github.com/lengrongfu/kubeasz/blob/master/docs/op/op-node.md'"
             ;;
         (kca-renew)
 	    echo -e "WARNNING: this command should be used with caution"

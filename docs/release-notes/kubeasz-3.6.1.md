@@ -12,7 +12,7 @@ kubeasz 3.6.1 发布：支持k8s v1.27版本，组件更新和一些bugfix。
 ### 增加应用部署插件 kubeapps
 
 Kubeapps 是一个基于 Web 的应用程序，它可以在 Kubernetes 集群上进行一站式安装，并使用户能够部署、管理和升级应用
-程序。https://github.com/easzlab/kubeasz/blob/master/docs/guide/kubeapps.md
+程序。https://github.com/lengrongfu/kubeasz/blob/master/docs/guide/kubeapps.md
 
 ### 重要更新
 
