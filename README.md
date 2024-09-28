@@ -121,7 +121,7 @@
 
 ## 沟通交流
 
-- 微信：k8s&kubeasz实践, 搜索微信号`lengrongfu`, 请按格式备注（${城市}-${github用户名}）, 验证后加入群聊。
+- 微信：k8s&kubeasz实践, 搜索微信号`badtobone` or `lengrongfu`, 请按格式备注（${城市}-${github用户名}）, 验证后加入群聊。
 - 推荐阅读
   - [kubernetes架构师课程](https://www.toutiao.com/c/user/token/MS4wLjABAAAA0YFomuMNm87NNysXeUsQdI0Tt3gOgz8WG_0B3MzxsmI/?tab=article)
   - [kubernetes-the-hard-way](https://github.com/kelseyhightower/kubernetes-the-hard-way)
